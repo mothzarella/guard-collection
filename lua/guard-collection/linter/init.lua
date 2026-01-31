@@ -18,6 +18,7 @@ return {
   stylelint = require('guard-collection.linter.stylelint'),
   ruff = require('guard-collection.linter.ruff'),
   typos = require('guard-collection.linter.typos'),
+  tfvalidate = require('guard-collection.linter.tfvalidate'),
   mypy = require('guard-collection.linter.mypy').mypy,
   mypyc = require('guard-collection.linter.mypy').mypyc,
   dmypy = require('guard-collection.linter.mypy').dmypy,
